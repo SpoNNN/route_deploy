@@ -52,5 +52,4 @@ docker compose down
 docker volume prune -f
 docker compose up -d --build
 docker compose exec app php artisan key:generate
-docker compose exec app php artisan migrate --seed
 ```
